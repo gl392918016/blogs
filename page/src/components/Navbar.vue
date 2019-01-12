@@ -9,7 +9,7 @@
       <li><router-link to="/random">杂七杂八</router-link></li>
       <li><router-link to="/own">个人中心</router-link></li>
     </ul>
-    <p><span>登陆</span> | <span>注册</span></p>
+    <p><router-link to="/bg">背景</router-link></p>
   </div>
 </template>
 
@@ -29,7 +29,8 @@ export default {
     line-height: 50px;
     padding:0 5%;
     display: inline-block;
-    background: #3dbcf5;
+    background: rgba(61,188,245,0.8);
+    /*opacity: 0.8;  61 188 245*/
     h2{
       display: inline-block;
       color: white;
