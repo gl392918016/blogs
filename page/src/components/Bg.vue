@@ -3,7 +3,7 @@
         <div class="homepage-hero-module">
             <div class="video-container">
                 <div :style="fixStyle" class="filter"></div>
-                <video :style="fixStyle" preload loop class="fillWidth" @canplay="canplay">
+                <video :style="fixStyle" autoplay loop class="fillWidth" @canplay="canplay">
                     <source src="https://app.coverr.co/s3/mp4/Amalfi-Traffic.mp4" type="video/mp4"/>
                     浏览器不支持 video 标签，建议升级浏览器。
                     <source src="https://app.coverr.co/s3/webm/Amalfi-Traffic.webm" type="video/webm"/>

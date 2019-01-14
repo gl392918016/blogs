@@ -9,7 +9,7 @@
       <li><router-link to="/random">杂七杂八</router-link></li>
       <li><router-link to="/own">个人中心</router-link></li>
     </ul>
-    <p><router-link to="/bg">背景</router-link></p>
+    <p><router-link to="/bg">简历</router-link></p>
   </div>
 </template>
 
@@ -53,6 +53,10 @@ export default {
       display: inline-block;
       line-height: 50px;
       float: right;
+      font-size: 12px;
+      a{
+        text-decoration: none;
+      }
     }
 
   }
